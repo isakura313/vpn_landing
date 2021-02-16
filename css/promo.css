@@ -1,0 +1,44 @@
+.get_started{
+    margin-top: 89px;
+    display: flex;
+    margin-left:150px;
+    margin-right:83px;
+    justify-content: space-between;
+}
+.promo_img{
+    background-image: url('/img/man_on_laptop.png');
+    width: 612px;
+    height: 382px;
+}
+.promo_info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 45%;
+}
+.promo__info_h3{
+    font-size:50px;
+    font-weight: 400;
+    font-family: var(--mf);
+    line-height: 1.3;
+    color:var(--dark-text-color)
+}
+.promo__info_p{
+    font-size: 16px;
+    font-family: var(--mf);
+    color:var(--dark-text-color);
+    line-height: 1.8;
+}
+.promo__info_button{
+    padding: 18px 77px;
+    background-color: var(--danger-color);
+    color:white;
+    font-family: var(--mf);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 5px 30px var(--danger-color);
+    cursor:pointer;
+}

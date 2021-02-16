@@ -1,12 +1,77 @@
-.header{
+.header {
     display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.logo {
+    width: 149px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-.logo{
-    background-image: url('/img/Logo.png');
-    background-repeat: none;
+.img__logo {
+    background-image: url('/img/logo.svg');
+    background-repeat: no-repeat;
     background-position: center center;
     height: 37px;
-    width: 149px;
+    width: 36px;
 }
+
+.logo span {
+    font-family: var(--mf);
+    font-size: 20px;
+    color: var(--dark-text-color);
+}
+
+.logo_thin {
+    font-weight: 500;
+}
+
+.logo_bold {
+    font-weight: 600;
+}
+
+.nav {
+    width: 450px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__a {
+    text-decoration: none;
+    color: var(--dark-grey-color);
+    font-size: 16px;
+    font-family: var(--mf);
+    font-weight: 400;
+}
+
+.reg {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reg__button {
+    font-family: var(--mf);
+    font-size: 16px;
+    font-weight: 500;
+    border:none;
+    background-color:white;
+    cursor: pointer;
+}
+
+.default_btn {
+    color: var(--dark-text-color);
+}
+
+.danger_btn {
+    color:var(--danger-color);
+    padding: 13px 45px;
+    border: 1px solid var(--danger-color);
+    border-radius: 50px; 
+}
+
