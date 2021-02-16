@@ -1,0 +1,25 @@
+.features{
+    display: flex;
+    margin: 0 150px 131px 184px;
+    height: 25em;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--mf);
+}
+.features__img{
+    background-image: url('/img/man_on_laptop_2.png');
+    width: 80%;
+    height: 25em;
+    background-position: center center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.features__wrap{
+    width: 57%;
+}
+.features h3{
+    font-size: 35px;
+    line-height: 1.6;
+    color: var(--dark-text-color);
+    font-weight: 600;
+}
