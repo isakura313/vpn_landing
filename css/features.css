@@ -1,25 +1,63 @@
-.features{
+.features {
     display: flex;
     margin: 0 150px 131px 184px;
     height: 25em;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     font-family: var(--mf);
 }
-.features__img{
+
+.features__img {
+    margin-top: 50px;
     background-image: url('/img/man_on_laptop_2.png');
-    width: 80%;
-    height: 25em;
-    background-position: center center;
-    background-size:contain;
+    width: 60%;
+    height: 100%;
+    background-position: left center;
+    background-size: contain;
     background-repeat: no-repeat;
 }
-.features__wrap{
-    width: 57%;
+
+.features__wrap {
+    height: 90%;
+    width: 40%;
 }
-.features h3{
+
+.features h3 {
     font-size: 35px;
-    line-height: 1.6;
     color: var(--dark-text-color);
-    font-weight: 600;
+    font-weight: 500;
+    line-height: 1.4;
 }
+
+.features p {
+    font-size: 16px;
+    line-height: 2.1;
+    color: var(--dark-grey-color);
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+.features ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+    margin-top: 25px;
+}
+
+.features li {
+    font-family: var(--mf);
+    font-size: 14px;
+    color: var(--dark-grey-color);
+    display: flex;
+    align-items: center;
+}
+li::before {
+    content: " ";
+    background-image: url('/img/galka.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 10px;
+  }

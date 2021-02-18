@@ -1,0 +1,11 @@
+.plans{
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 50px;
+    margin: 60px 176px 150px 176px;
+}
+.plans_wrapper{
+    display: grid;
+    height:760px;
+    border: 2px solid #DDD;
+}
