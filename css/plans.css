@@ -6,6 +6,49 @@
 }
 .plans_wrapper{
     display: grid;
+    justify-content: center;
+    grid-template-rows: 165px 62px 175px 165px 45px;
     height:760px;
     border: 2px solid #DDD;
+    padding: 95px 0 35px 0;
+}
+.plans_wrapper__img{
+    background-image: url('/img/box.png');
+    background-size: contain;
+    background-position: center center;
+}
+.plans_wrapper__h3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: var(--mf);
+    color:var(--dark-text-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+.plans_wrapper__ul{
+    display: flex;
+    flex-direction: column;
+}
+.plans_wrapper__ul li{
+    margin-bottom: 10px;
+}
+.plans_wrapper__h5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--mf);
+    color:var(--dark-text-color);
+    font-size: 25px;
+    font-weight: 600;
+}
+.plans_wrapper__btn{
+    margin-top: 20px;
+    color: var(--danger-color);
+    border: 2px solid var(--danger-color);
+    padding: 13px 62px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
 }
