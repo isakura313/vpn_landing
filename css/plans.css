@@ -1,6 +1,27 @@
+.plans_promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--mf);
+}
+.plans_promo__h3{
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--dark-text-color)
+}
+.plans_promo__p{
+    font-size: 16px;
+    width: 555px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--dark-grey-color);
+    line-height: 1.9;
+    margin-top: 20px;
+}
+
 .plans{
     display: grid;
-    grid-template-columns: 32% 32% 32%;
+    grid-template-columns: 33% 32% 32%;
     grid-column-gap: 50px;
     margin: 60px 176px 150px 176px;
 }
@@ -11,11 +32,24 @@
     height:760px;
     border: 2px solid #DDD;
     padding: 95px 0 35px 0;
+    border-radius: 20px;
+}
+.plans_wrapper_danger{
+    border: 2px solid var(--danger-color);
 }
 .plans_wrapper__img{
-    background-image: url('/img/box.png');
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
+}
+.plans_wrapper__img_box1{
+    background-image: url('../img/box_1.svg');
+}
+.plans_wrapper__img_box2{
+    background-image: url('../img/box_2.svg');
+}
+.plans_wrapper__img_box3{
+    background-image: url('../img/box_3.svg');
 }
 .plans_wrapper__h3{
     display: flex;
@@ -25,14 +59,29 @@
     color:var(--dark-text-color);
     font-size: 18px;
     font-weight: 600;
+    margin-bottom: 16px;
 }
 .plans_wrapper__ul{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .plans_wrapper__ul li{
     margin-bottom: 10px;
 }
+
+.plans_wrapper__ul  li::before {
+    content: " ";
+    background-image: url('../img/galka_2.svg');
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    padding-left: 30px;
+  }
+
 .plans_wrapper__h5{
     display: flex;
     flex-direction: column;
@@ -51,4 +100,14 @@
     border-radius: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    background:none;
+    font-family: var(--mf);
+    font-weight: 900;
+    font-size: 16px;
+    align-self: center;
+}
+.plans_wrapper__btn_fill{
+    background-color: var(--danger-color);
+    color: white;
 }

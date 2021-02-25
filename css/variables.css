@@ -1,9 +1,16 @@
-:root{
+:root {
     --danger-color: #F53838;
     --dark-text-color: #0B132A;
     --dark-grey-color: #4F5665;
-    --mf:'Rubik', sans-serif;
+    --mf: 'Rubik', sans-serif;
 }
-.wrapper_universal{
+
+.wrapper_universal {
     margin: 0 150px;
+}
+
+.wrapper_maps {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
 }
