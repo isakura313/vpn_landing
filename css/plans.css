@@ -7,7 +7,9 @@
 .plans_promo__h3{
     font-size: 35px;
     font-weight: 500;
-    color: var(--dark-text-color)
+    color: var(--dark-text-color);
+    width: 400px;
+    text-align: center;
 }
 .plans_promo__p{
     font-size: 16px;

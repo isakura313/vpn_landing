@@ -1,0 +1,11 @@
+@media screen and (max-width: 760px){
+    .header{
+        display: none;
+    }
+    .get_started{
+        flex-direction: column;
+    }
+    .promo_img{
+        width: 100%;
+    }
+}
