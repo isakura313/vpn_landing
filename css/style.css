@@ -7,3 +7,49 @@
 @import url('plans.css');
 @import url('feedback.css');
 @import url('adaptive.css');
+@import url('../node_modules/animate.css/animate.css');
+
+.wrapper_cards{
+    /* background-blend-mode: darken; */
+    /* background-image: linear-gradient(180deg, rgba(50,42,39,0.5) 0%, rgb(0, 0, 0) 100%);  */
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-around;
+    width: 900px;
+    margin: 0 auto;
+    height: 320px;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20em;
+}
+.wrapper_cards::after{
+    content: "";
+    background: url('https://media4.giphy.com/media/ftklTmdD9MN3uXaLvb/giphy.gif?cid=ecf05e476dc3549a06ab771e0280c8722d02df23cd2df8d2&rid=giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom:0;
+    z-index: -1;
+
+}
+.cards_promo{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+.first{
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.second{
+    background-color:rgb(0, 128, 0);
+    position: absolute;
+    left: 36.6%;
+    align-self: start;
+}
+.third{
+    background-color:rgba(255, 0, 0, 0.5);
+}

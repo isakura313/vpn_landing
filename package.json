@@ -1,0 +1,24 @@
+{
+  "name": "vp_landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isakura313/vpn_landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isakura313/vpn_landing/issues"
+  },
+  "homepage": "https://github.com/isakura313/vpn_landing#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "anime.css": "^1.0.1"
+  }
+}
