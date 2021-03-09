@@ -1,11 +1,70 @@
-@media screen and (max-width: 760px){
-    .header{
+@media screen and (max-width: 1100px) {
+    .header {
         display: none;
     }
-    .get_started{
+    .get_started {
         flex-direction: column;
     }
-    .promo_img{
+    .promo_img {
         width: 100%;
+    }
+    .feedback_zone {
+        width: 100%;
+        margin: 60px 10px;
+    }
+    .achiv {
+        flex-direction: column;
+    }
+    .info:nth-child(1), .info:nth-child(2) {
+        border: none;
+    }
+    .info {
+        width: 100%;
+        align-items: flex-start;
+    }
+    .info__p {
+        width: 300px;
+    }
+    .features {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        margin: 10px;
+    }
+    .features__img{
+        height: 300px;
+        background-position: center center;
+    }
+    .features__wrap {
+        width: 90%;
+    }
+    .features h3, .features p{
+        text-align: center;
+    }
+    .features ul{
+        align-items: center;
+    } 
+    .features ul li{
+        width: 300px;
+        height: 70px;
+        font-size: 22px;
+        margin: 20px;
+    }
+    .features li::before{
+        width: 22px;
+        height: 22px;
+    } 
+    .plans{
+        grid-template-columns: 1fr;
+        margin: 10px 40px;
+    }
+    .plans_wrapper{
+        border: none;
+        border-bottom: 2px solid black;
+        border-radius: 0;
+        grid-template-rows:  100px 50px 265px 45px;
+    }
+    .plans_wrapper__ul li{
+        font-size: 22px;
     }
 }
