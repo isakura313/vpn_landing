@@ -5,6 +5,8 @@
 
 
 setTimeout(() => {
+
+    
     document.querySelector(".modal_window").style.display = "block";
 }, 1000);
 
