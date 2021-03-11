@@ -7,6 +7,7 @@
 @import url('plans.css');
 @import url('feedback.css');
 @import url('adaptive.css');
+@import url('modal.css');
 @import url('../node_modules/animate.css/animate.css');
 
 .wrapper_cards{

@@ -1,0 +1,24 @@
+.modal_window{
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    width: 20%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    display: none;
+}
+#krest{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
