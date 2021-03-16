@@ -1,0 +1,22 @@
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq_wrapper{
+    width: 80%;
+    font-family: var(--mf);
+}
+.faq_question{
+    height: 80px;
+    background-color: var(--dark-text-color);
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.faq_answer{
+    border: 2px solid black;
+    font-size: 20px;
+    display: none;
+}
